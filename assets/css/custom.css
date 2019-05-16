@@ -1,0 +1,391 @@
+ body {
+	max-width:100%;
+	background:url(../img/bodybg.jpg) center center fixed;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+	color:#212a44;
+	font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+	
+}
+a:focus,img:focus{
+	outline: none!important;
+}
+a:hover {
+	color:#212a44;
+}
+* {
+	
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
+
+}
+img{
+	max-width:100%;
+}
+
+section.icerik{
+	margin-top:20px;
+	background:#ffffffdb;
+	min-height:600px;
+	padding:15px;
+	border-radius:5px;
+}
+section.harita {
+    margin-top: 20px;
+    background: #ffffffdb;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+section.harita #map{
+	width:100%;
+	height:400px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,0.5);
+    font-size: 14px;
+    font-weight: 600;
+}
+.oyunlar {
+	margin-bottom:80px;
+}
+.oyunlar .oyun {
+	background:#fff;
+	    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+	padding:0px 0px 10px;
+	border-radius:5px;
+	border:1px solid #dfdfdf;
+	transition: 0.5s ease all;
+}
+
+.oyunlar .oyun a{
+	text-decoration:none;
+}
+.oyunlar .oyun:hover .resim .img{
+	 -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari */
+    transform: scale(1.1);
+	transition: 0.5s ease all;
+}
+.oyunlar .oyun .resim {
+	width:100%;
+	transition: 0.5s ease all;
+	max-height:220px;
+	overflow:hidden;
+}
+.oyunlar .oyun .resim .img{
+	width:100%;
+	height:220px;
+	background-size:cover;
+}
+.oyunlar .oyun .baslik{
+	font-weight:600;
+	font-size:17px;
+	display:block;
+	    margin: 15px 10px;
+}
+
+.oyunlar .oyun .yazan {
+    display: block;
+    margin: 5px 0px;
+    padding: 8px 10px;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.oyunlar .oyun .btn{
+	margin:10px;
+}
+.bg-light2 {
+    background-color: #ffffffdb;
+    color: #000;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #de1b22;
+    border: unset;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #de1b22;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.page-link:hover {
+    z-index: 2;
+    color: #bd070f;
+    text-decoration: none;
+    background-color: #eee;
+    border-color: #dee2e6;
+    border-color: #eee;
+}
+.footer{
+	border-radius:5px;
+	background:#ffffffdb;
+	padding: 20px 30px;
+	margin:20px 0px ;
+}
+.footer img{
+	max-width:40px;
+	width:40px;	
+     filter: grayscale(100%);
+}
+.footer a:hover img{
+	filter:grayscale(0%);
+}
+.footer .copyright{
+	padding:10px 0px 0px;
+}
+.breadcrumb{
+	background:transparent;
+	color:#fff;
+}
+.card-header a{
+color:#fff;
+margin:0px 5px;
+}
+.blok{
+	margin:0px;
+}
+.bg-default{
+	background: #f1f1f1b0;
+	border: 1px solid #ddd;
+}
+.bg-dark{
+	background: #e52027;
+	color:#fff;
+	border: 1px solid #e52027;
+}
+.blokbg .bloktext{ 
+	display:block;
+	padding:5px 0px ;
+	text-align:center;
+	font-size:18px;
+	font-weight:500;
+	    color: #000;
+}
+.blokbg {
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin: 5px 0px;
+}
+.m15 .koltuksatir{
+	    margin-left: 4px;
+}
+.customcontent p{
+	margin:5px 0px;
+	line-height:18px;
+	font-size:14px;
+}
+.customcontent strong {
+	font-weight: 600;
+}
+
+.customcontent ol>li{
+margin:3px 0px;
+}
+.customcontent ul>li{
+	margin:3px 0px;
+}
+.customcontent ul {
+	list-style-type: circle;
+	padding-left: 20px;
+}
+
+.customcontent ol {
+	float: left;
+	list-style-type: circle;
+}
+
+.customcontent em{
+	font-style: italic;
+}
+
+.customcontent u{
+	text-decoration: underline;
+}
+.customcontent h1 {
+	font-size: 2.5rem;
+}
+
+.icerik h1{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 2px solid #DE1B22;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.oyungaleri{
+    position: relative;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.oyungaleri img{
+    margin-bottom: 15px;
+}
+
+.oyungaleri .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background: rgba(0, 0, 0, 0.4);
+    height: calc(100% - 15px);
+    flex-direction: column;
+    text-align: center;
+    opacity: 0;
+    transition: .3s ease all;
+}
+
+.oyungaleri:hover .overlay{
+    opacity: 1;
+}
+
+.oyungaleri .overlay i{
+    color: white;
+    font-size: 20px;
+}
+
+.oyunicerik table tbody tr{
+    border-bottom: 2px solid darkred;
+}
+
+.oyunicerik table{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.oyunicerik table tbody tr td:first-child{
+    font-weight: bold;
+}
+
+.oyunicerik p{
+    border-bottom: 2px solid darkred;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.oyuncard{
+    display: block;
+    width: 100%;
+}
+
+
+ .icerik {
+     margin-bottom:80px;
+ }
+ .icerik .oyun {
+     background:#fff;
+     -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+     box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+     padding:0px 0px 10px;
+     border-radius:5px;
+     border:1px solid #dfdfdf;
+     transition: 0.5s ease all;
+     margin-bottom: 30px;
+ }
+
+ .icerik .oyun a{
+     text-decoration:none;
+ }
+ .icerik .oyun .resim .img{
+     transform: scale(1);
+     transition: 0.5s ease all;
+ }
+
+ .icerik .oyun:hover .resim .img{
+     -ms-transform: scale(1.1); /* IE 9 */
+     -webkit-transform: scale(1.1); /* Safari */
+     transform: scale(1.1);
+     transition: 0.5s ease all;
+ }
+ .icerik .oyun .resim {
+     width:100%;
+     transition: 0.5s ease all;
+     max-height:220px;
+     overflow:hidden;
+ }
+ .icerik .oyun .resim .img{
+     width:100%;
+     height:220px;
+     background-size:cover;
+ }
+ .icerik .oyun .baslik{
+     font-weight:600;
+     font-size:17px;
+     display:block;
+     margin: 15px 10px;
+ }
+
+ .icerik .oyun .yazan {
+     display: block;
+     margin: 5px 0px;
+     padding: 8px 10px;
+     font-size: 12px;
+     border-bottom: 1px solid rgba(0,0,0,0.1);
+ }
+
+ .icerik .oyun .btn{
+     margin:10px;
+ }
+
+
+
+.customcontent h2 {
+	font-size: 2rem;
+}
+
+.customcontent h3 {
+	font-size: 1.75rem;
+}
+
+.customcontent h4 {
+	font-size: 1.5rem;
+}
+
+.customcontent h5 {
+	font-size: 1.25rem;
+}
+
+.customcontent h6 {
+	font-size: 1rem;
+}
+.customcontent small {
+	font-size: 80%;
+	font-weight: 400;
+}
+.iletisimkutu{
+	font-size:13px;
+	text-align:center;
+	color:#abaaaa;
+	margin:10px 0px;
+}
+.iletisimkutu{
+	line-height:17px;
+}
+.iletisimkutu i {
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #de1b22;
+    margin: 10px 0px;
+}
